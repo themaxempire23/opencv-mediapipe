@@ -1,0 +1,2 @@
+1. install open cv repo
+   comand: pip install opencv-python
