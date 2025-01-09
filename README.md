@@ -1,2 +1,2 @@
 # opencv-mediapipe
-Mastering OpenCV and MediaPipe: Learn Image Processing, Object Detection, Gesture Control, and with Real-time Applications.
+Mastering OpenCV and MediaPipe: Image Processing, Object Detection, Gesture Control, and Real-time Applications.
