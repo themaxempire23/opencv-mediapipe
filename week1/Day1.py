@@ -6,3 +6,10 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 cv2.destroyAllWindows()
+
+
+# Nothing
+
+cv2.destroyAllWindows()
+
+cv2.destroyAllWindows()
