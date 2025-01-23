@@ -3,7 +3,10 @@ import numpy as np
 
 def draw_shapes_and_text():
     # Creating blank image
-    img = np.zeros((500, 800, 3), dtype=np.uint8) # declaring img variable followed an entry of zeros
+    #img = np.zeros((500, 800, 3), dtype=np.uint8) # declaring img variable followed an entry of zeros
+
+    # If I want to change the image
+    img=cv2.imread(r"C:\Users\Max\Documents\Projects\opencv-mediapipe\week1\image.jpeg")
 
     cv2.line(img, (50, 50),( 500, 100),(0, 255, 0), 5)
     cv2.rectangle(img, (50, 50),( 500, 100),(0, 255, 0), 5)
