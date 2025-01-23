@@ -9,6 +9,9 @@ def draw_shapes_and_text():
     cv2.rectangle(img, (50, 50),( 500, 100),(0, 255, 0), 5)
     cv2.circle(img,(50,50),50,(255, 0,255),5)
 
+    font=cv2.FONT_HERSHEY_COMPLEX
+    cv2.putText(img,"Opencv Professional certificate",(100,200)
+
     cv2.imshow("Edit",img)
     cv2.waitKey(0)
 
