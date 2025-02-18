@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.resize(cv2.imread(r"C:\Users\Max\Documents\Projects\opencv-mediapipe\week2\image.jpeg"), (640, 480)) #Loading image
+img = cv2.resize(cv2.imread(r"C:\Users\maxnd\Documents\Machine Learning\opencv-mediapipe\week2\image.jpeg"), (640, 480)) #Loading image
 cv2.imshow("Original", img)
 
 cv2.imshow("Blur",cv2.GaussianBlur(img,(15,15),0))
