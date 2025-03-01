@@ -1,0 +1,7 @@
+This is how to set up python virtual environment for python libraries
+
+step 1: python -m venv env
+
+step 2: env\Scripts\activate
+
+step 3: Intall any library you want
